@@ -36,7 +36,7 @@ Algorithm
 import random 
 
 # make a list if word
-words = ['apple','banana','orange','coconut','strawberry','lime','grapefruit','lemon','kumquat','blueberry','melon']
+words = ['apple','banana','orange','coconut','strawberry','lime','grapefruit','Lemon','kumquat','blueberry','melon']
 
 while True:
 
