@@ -19,9 +19,9 @@ def changeImageSize(maxWidth,
     newImage    = image.resize((newWidth, newHeight))
     return newImage
 
-image3 = changeImageSize(1250, 650, im1)
-image4 = changeImageSize(1250, 650, im2)
-image5 = changeImageSize(1250, 650, im3)
-image6 = changeImageSize(1250, 650, im4)
-image7 = changeImageSize(1250, 650, im5)
+image3 = changeImageSize(1251, 651, im1)
+image4 = changeImageSize(1251, 651, im2)
+image5 = changeImageSize(1251, 651, im3)
+image6 = changeImageSize(1251, 651, im4)
+image7 = changeImageSize(1251, 651, im5)
 image7.save("gif_program.gif", save_all=True, append_images=[im1,im2, im3, im4], duration=100, loop=0)
