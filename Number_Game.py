@@ -52,7 +52,7 @@ Challenge 4
 import random
 
 while True:
-    in1=int(input("enter the no between 1 to 10 :"))
+    in1=int(input("enter the number between 1 to 11 :"))
     if not in1:
         break
     in2=random.randint(1,10)
